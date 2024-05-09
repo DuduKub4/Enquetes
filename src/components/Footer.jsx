@@ -1,7 +1,7 @@
 import React from "react"; 
 
 const Footer = () => {
-    return <footer>&copy; GABrambila*-*.</footer>
+    return <footer>&copy; /Kuba/</footer>
 };
 
 export default Footer; 

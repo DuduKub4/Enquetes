@@ -13,7 +13,7 @@ const Admin = () => {
     const submitForm = (e) => {
         e.preventDefault();
 
-        if(usuario == "Gabriel" && senha == "12345"){
+        if(usuario == "admin" && senha == "admin"){
             setLogin(true); 
             Cookies.set("usuario", usuario, {expires: 1})
         } else {
